@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.logo{
+    padding-top:10px;
+}
+.logo img{
+    width:150px;
+    padding-left: 112px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    gap:20px;
+}
+nav ul li{
+    display:inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    font-size:16px;
+    font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+}
+.top-container{
+    margin-bottom: 20px;
+    margin-left: 698px;
+}
+.top-container img{
+    width:64px;
+}
+
+main{
+    background-color: #eeeeee;
+    padding:50px;
+}
+.main-image img{
+    border-radius: 20px;
+    margin-top: -23px;
+    margin-left: 33px;
+    
+}
+.heading-1{
+    height:100px;
+    text-align: center;
+}
+.heading-1 h2{
+    font-size: xx-large;
+    padding-top: 95px;
+    font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+    margin-left: 98px;
+}
+.sub-container{
+    display: flex;
+}
+.side-image{
+    width: 389px;
+    height: 467px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 49px;
+    margin-top: 77px;
+    margin-left: 244px;
+    border-radius: 20px;
+}
+.Smartwater-content{
+    width: 500px;
+    margin-top: 228px;
+    margin-left: 120px;
+    font-size: larger;
+    font-family:Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+}
+.follow-container{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    width: 1004px;
+    margin-left: 242px;
+    margin-top: 126px;
+    height: 83px;
+    border-radius: 25px;
+}
+.follow-container h1{
+    margin: 0px;
+    text-align: start;
+    margin-left: 91px;
+    margin-top: 20px;
+    font-size: 36px;
+}
+.social-icons-1{
+    margin-top: -27px;
+    margin-left: 590px;
+    font-size: 19px;
+    
+}
+.social-icons-1 a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding:8px;
+    margin-left: 20px;
+}
+.social-icons-1 a:hover{
+    color: rgb(197, 1, 1);
+    text-decoration: none;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+    text-align: start;
+    padding: 10px;
+    font-family: Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+}
+.description p{
+    font-size:15px;
+    font-weight: 200;
+    margin-left: 238px;
+    letter-spacing: 1px;
+    
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: #eeeeee;
+}
+
+.top-footer{
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 312px;
+    align-items: center;
+}
+.location{
+    display:inline-block;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding:5px 15px;
+    margin-left: 20px;
+}
+.location a{
+    color: white;
+    text-decoration: none;
+}
+.line-1{
+    color: white;
+    width: 77%;
+    margin-left: 202px;
+    margin-top: -22px;
+}
+.footer-logo img{
+    height: 50px;
+    color:#eeeeee;
+}
+.mid-footer{
+    display: flex;
+}
+.table{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 18px;
+    color:white;
+    margin-left: 284px;
+}
+table th{
+    text-align: left;
+    font-size:x-small;
+    color:rgb(173, 169, 169);
+    font-weight: 600;
+    padding:10px;
+}
+.table td{
+    font-size:small;
+    font-weight: bold;
+    padding:10px;
+}
+.social-icons-2{
+    margin-left: 184px;
+    margin-top: 34px;
+    font-size: 19px;
+}
+.social-icons-2 a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding:8px;
+    margin-left: 15px;
+}
+.social-icons-2 a:hover{
+    color: rgb(197, 1, 1);
+    text-decoration: none;
+}
+.line-2{
+    color: white;
+    width: 77%;
+    margin-left: 202px;
+    margin-top: 20px;
+}
+.bottom-footer{
+    height:200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.bottom-footer p{
+    margin-left: 1000px;
+}
+
+
